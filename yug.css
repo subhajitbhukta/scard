@@ -41,11 +41,10 @@ body {
 }
 
 .container {
-    border-radius: 30px;
-    border: 0px solid #2c6eeb;
+    border: 6px solid #0400ff;
     position: relative;
-    width: 320px;
-    height: 320px;
+    width: 310px;
+    height: 300px;
     margin: 0 auto;
     margin-top: 20px
 }
@@ -57,19 +56,19 @@ body {
 
 .confetti {
     visibility: hidden;
-    width: 10px;
+    width: 15px;
     height: 15px;
     background-color: #f2d74e;
     position: absolute;
     left: 50%;
-    animation: confetti 3s ease-in-out -2s infinite;
+    animation: confetti 5s ease-in-out -1s infinite;
     transform-origin: left top
 }
 
 .confetti:nth-child(1) {
     background-color: #34a853;
     left: 20%;
-    animation-delay: -2s
+    animation-delay: -5s
 }
 
 .confetti:nth-child(3) {
